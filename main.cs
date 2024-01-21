@@ -20,16 +20,7 @@ class Program
             }
         }
 
-        Console.WriteLine();
-        for (int a = 0; a < rowsInt; a++)
-        {
-            foreach (char b in tab[a])
-            {
-                Console.Write(b + " ");
-            }
-
-            Console.WriteLine();
-        }
+    
 
         return tab;
     }
